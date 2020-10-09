@@ -1,6 +1,7 @@
 <?php
     $name = "HelloWorld";
-    $name1 = "hiiii"
+    $name1 = "hiiii";
+    
     echo($name);
     echo($name1);
 
@@ -26,5 +27,10 @@
     // divide function
     function divide($a,$b) {
         return $a/$b;
+    }
+
+    // mod function
+    function mod($a,$b) {
+        return $a%$b;
     }
 ?>
