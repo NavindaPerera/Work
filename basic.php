@@ -6,7 +6,8 @@
     
     echo($name);
     echo($name1);
-    echo(power($a));
+    echo(powerA($a));
+    echo(powerB($b));
 
     function name($n) {
         return $n;
@@ -38,8 +39,13 @@
     }
 
     // power function - $a
-    function power($a) {
+    function powerA($a) {
         return $a*$a;
+    }
+
+    // power function - $b
+    function powerB($b) {
+        return $b*$b;
     }
 
 ?>
