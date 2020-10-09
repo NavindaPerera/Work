@@ -1,9 +1,12 @@
 <?php
     $name = "HelloWorld";
     $name1 = "hiiii";
+    $a = 8;
+    $b = 2;
     
     echo($name);
     echo($name1);
+    echo(power($a));
 
     function name($n) {
         return $n;
@@ -33,4 +36,10 @@
     function mod($a,$b) {
         return $a%$b;
     }
+
+    // power function - $a
+    function power($a) {
+        return $a*$a;
+    }
+
 ?>
