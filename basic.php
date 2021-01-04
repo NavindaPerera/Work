@@ -9,7 +9,7 @@
     echo(powerA($a));
     echo(powerB($b));
 
-    // name function
+    
     function name($n) {
         return $n;
     }
