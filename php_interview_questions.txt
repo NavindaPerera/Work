@@ -1,0 +1,2 @@
+1. What is the purpose of _LINE_ constant?
+    * _LINE_ − The current line number of the file.
