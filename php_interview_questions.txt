@@ -9,3 +9,7 @@
 3. What is the difference between include() Function and require() Function?
     * If there is any problem in loading a file then the require() function generates a fatal error and halt the execution of 
     the script whereas include() function generates a warning but the script will continue execution.
+
+4. What is the purpose of $GLOBALS variable in PHP?
+    * $GLOBALS − Contains a reference to every variable which is currently available within the global scope of the script. 
+    The keys of this array are the names of the global variables.
