@@ -3,6 +3,7 @@
     $name1 = "hiiii";
     $a = 8;
     $b = 2;
+    $c = 5;
     
     echo($name);
     echo($name1);
@@ -15,9 +16,14 @@
         return $n;
     }
 
-    // add function
+    // add function - a+b
     function add($a,$b) {
         return $a+$b;
+    }
+
+    // add function - a+c
+    function add($a,$c) {
+        return $a+$c;
     }
 
     // subtract function
