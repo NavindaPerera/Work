@@ -65,4 +65,10 @@
     function squareRootA($b) {
         return sqrt($b);
     }
+
+    // square root - C
+    function squareRootA($c) {
+        return sqrt($c);
+    }
+    
 ?>
