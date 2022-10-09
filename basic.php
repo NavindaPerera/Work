@@ -9,6 +9,7 @@
     echo(powerA($a));
     echo(powerB($b));
     echo(squareRootA($a));
+    echo(squareRootA($b));
     
     function name($n) {
         return $n;
@@ -53,5 +54,9 @@
     function squareRootA($a) {
         return sqrt($a);
     }
-
+    
+    // square root - B
+    function squareRootA($b) {
+        return sqrt($b);
+    }
 ?>
